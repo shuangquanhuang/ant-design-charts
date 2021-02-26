@@ -1,6 +1,6 @@
 {
   "name": "@ant-design/charts",
-  "version": "1.0.18",
+  "version": "1.0.18-beta.2",
   "description": "React translate g2plot",
   "bugs": {
     "url": "https://github.com/ant-design/ant-design-charts/issues"
@@ -52,6 +52,9 @@
   },
   "dependencies": {
     "@antv/g2plot": "^2.2.11",
+    "@antv/l7": "^2.3.7",
+    "@antv/l7-district": "^2.3.1",
+    "@antv/l7-maps": "^2.3.7",
     "@antv/g6": "^4.1.7",
     "@antv/util": "^2.0.9",
     "react-content-loader": "^5.0.4"
