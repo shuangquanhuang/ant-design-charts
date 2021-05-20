@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { renderHook } from '@testing-library/react-hooks';
 import { act } from 'react-dom/test-utils';
 import ReactDOM from 'react-dom';
-import { IndentedTree } from '../../src/graph';
+import { IndentedTree } from '../../src/graphs';
 
 const refs = renderHook(() => useRef());
 

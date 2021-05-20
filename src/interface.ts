@@ -1,4 +1,7 @@
 import { Options as G2PlotConfig } from '@antv/g2plot';
+
+export * from './maps/interface';
+
 export interface CommonProps {
   style?: React.CSSProperties;
   className?: string;

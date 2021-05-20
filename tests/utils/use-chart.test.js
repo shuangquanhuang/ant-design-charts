@@ -3,9 +3,8 @@ import ReactDOM, { unmountComponentAtNode } from 'react-dom';
 import { isFunction } from 'lodash';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
-import Pie from '../../src/pie';
-import Area from '../../src/area';
-import RingProgress from '../../src/ringProgress';
+import { Pie, Area } from '../../src';
+import { RingProgress } from '../../src';
 
 describe('use chart', () => {
   let container;
